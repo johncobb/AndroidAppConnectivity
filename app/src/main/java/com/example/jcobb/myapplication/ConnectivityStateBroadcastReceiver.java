@@ -51,6 +51,14 @@ public class ConnectivityStateBroadcastReceiver extends BroadcastReceiver {
     }
 
     public void unregisterReceiver() {
-        mContext.unregisterReceiver(this);
+        // TODO: Empty Function
+
+        /*
+         * Since the lifecycle of the broadcast receiver lasts the entire
+         * cycle of the Activity we do not need to unregister the listener
+         * until the application cycle has ended. Commenting following line
+         * until more information is found or research is done.
+         */
+        //mContext.unregisterReceiver(this);
     }
 }
