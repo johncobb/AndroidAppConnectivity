@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="cnx_status">(unknown)</string>
+    <string name="good_bye">good bye</string>
+    <string name="cnx_check">CHECK CONNECTION</string>
+    <string name="change_text_to">Shall we play a game?</string>
+</resources>
